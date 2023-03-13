@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">APP MarvinF</string>
+    <string name="tab_text_1"> Quién Soy </string>
+    <string name="tab_text_2"> Que Estudió </string>
+    <string name="tab_text_3"> Tecnología </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

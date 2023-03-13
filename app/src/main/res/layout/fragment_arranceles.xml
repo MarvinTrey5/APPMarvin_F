@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Arranceles">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="821dp"
+        android:background="#A9FBE7">
+
+        <TextView
+            android:layout_width="410dp"
+            android:layout_height="50dp"
+            android:background="#002C75"
+            android:drawableTop="@drawable/academica"
+            android:gravity="center_horizontal"
+            android:text="Que Estudió"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_Mar"
+        android:layout_width="160dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/graduado"/>
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="Parvularia"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textSize="16dp"
+        android:layout_marginTop="270dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txt_Parv"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text=" Mostrar Parvcularia"
+        android:textSize="16dp"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="270dp"
+        android:padding="5dp"
+        android:layout_gravity="right|center_horizontal"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="Graduado"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textSize="16dp"
+        android:layout_marginTop="320dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txt_Gradu"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text=" Mostrar Graduado"
+        android:textSize="16dp"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="320dp"
+        android:padding="5dp"
+        android:layout_gravity="right|center_horizontal"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="Insituto"
+        android:padding="5dp"
+        android:textSize="16dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="370dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txt_Ins"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text=" Mostrar Instituto"
+        android:textSize="16dp"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="370dp"
+        android:padding="5dp"
+        android:layout_gravity="right|center_horizontal"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Universidad"
+        android:padding="5dp"
+        android:textSize="16dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="420dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txt_Uni"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text=" Mostrar Universidad"
+        android:textSize="16dp"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="420dp"
+        android:padding="5dp"
+        android:layout_gravity="right|center_horizontal"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Ciclos Cursados"
+        android:padding="5dp"
+        android:textSize="16dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="470dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txt_Ciclo"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text=" Mostrar Ciclo"
+        android:textSize="16dp"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="470dp"
+        android:padding="5dp"
+        android:layout_gravity="right|center_horizontal"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Materias"
+        android:padding="5dp"
+        android:textSize="16dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="540dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txt_Mater"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text=" Mostrar Materias"
+        android:textSize="16dp"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="540dp"
+        android:padding="5dp"
+        android:layout_gravity="right|center_horizontal"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+    <Button
+        android:id="@+id/Enviar_URL"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:text="Mi Universidad"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/universidad"
+        android:backgroundTint="#002C75"
+        android:layout_marginTop="588dp"
+        android:layout_gravity="center_horizontal"/>
+</FrameLayout>
